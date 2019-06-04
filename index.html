@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html> 
+    <head> 
+        <title> CaitLin's Amazing Website </title>
+         <style>
+            body {
+                background: rgb(201, 234, 237);
+                color: rgb(130, 124, 115);
+                padding: 10px;
+                font-family: simsun;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(156, 189, 216);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(255, 253, 244);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="all-contents"> 
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=d0153a463f&attid=0.1&permmsgid=msg-f:1635379530681111685&th=16b20904bf315485&view=att&disp=safe style="width:400px;600px;" ">
+                </div>
+                
+                <div class="content">
+                    <h1> CaitLin Loo</h1>
+                    <p> "Student at Belle Chasse High"</p>
+                    <section class="interest">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Creating art: drawing and painting</li>
+                            <li>Playing the guitar</li>
+                            <li>Spending time with family and friends</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        
+        </div>
+    </body>
+</html>
